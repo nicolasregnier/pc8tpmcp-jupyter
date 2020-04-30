@@ -1,0 +1,11 @@
+octave
+octave-control
+octave-image
+octave-io
+octave-optim
+octave-signal
+octave-statistics
+octave-symbolic
+octave-miscellaneous
+gnuplot
+ghostscript
