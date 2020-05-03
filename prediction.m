@@ -19,8 +19,8 @@ function yp=prediction(y,u,A,B,r,onestep)
 %   yp : vecteur des sortie prédites par le modèle
 %
 %   Exemple : >> yp = prediction(y, u, A, B, 1) calcule les sorties prédite par un modèle ARX définit par A, B, et r=1.
-
-Le résidu d’estimation $\varepsilon = {y - y}_{P}$ peut être calculé à partir de ces données, de la façon suivante : **eps = y-yp**.
+%
+%   Le résidu d’estimation $\varepsilon = {y - y}_{P}$ peut être calculé à partir de ces données, de la façon suivante : **eps = y-yp**.
 
 
 % Vérification des arguments
