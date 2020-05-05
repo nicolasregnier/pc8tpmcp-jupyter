@@ -30,7 +30,6 @@ function [y,u,t] = closedloop(w, R, S, T)
         proc.T98 = round(-proc.tau*log(0.02));
         proc.H = tf(proc.K,[proc.tau 1]);
     else
-        w = lambertw(-1,-0.02*exp(-1));
         proc.Te = round(-proc.tau*(lambertw(-1,-0.05*exp(-1))+1)/15);
         proc.T95 = round(-proc.tau*(lambertw(-1,-0.05*exp(-1))+1));        
         proc.T98 = round(-proc.tau*(lambertw(-1,-0.02*exp(-1))+1));
